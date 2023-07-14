@@ -1,0 +1,44 @@
+{% extends 'todo/main.html' %} 
+{% block content %}
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col col-lg-9 col-xl-7">
+                <div class="card rounded-3">
+                    <div class="card-body p-4">
+                        <h4 class="text-center my-3 pb-3">Login</h4>
+                        <form action="" method="post" class="">
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form2Example1" class="form-control form-control-lg" placeholder="Email address"/>
+                              </div>
+                            
+                              <!-- Password input -->
+                              <div class="form-outline mb-4">
+                                <input type="password" id="form2Example2" class="form-control form-control-lg"  placeholder="Password"/>
+                              </div>
+                            
+                              <!-- 2 column grid layout for inline styling -->
+                              <div class="row mb-4 text-center">
+                                <div class="col">
+                                  <!-- Simple link -->
+                                  <a href="#!">Forgot password?</a>
+                                </div>
+                              </div>
+                            
+                              <!-- Submit button -->
+                              <div class="text-center">
+                              <a href="https://google.com" class="btn btn-primary btn-block mb-4">Login</a>
+
+                             </div>
+                              <!-- Register buttons -->
+                              <div class="text-center">
+                                <p>Not a member? <a href="#!">Register</a></p>
+                              </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
